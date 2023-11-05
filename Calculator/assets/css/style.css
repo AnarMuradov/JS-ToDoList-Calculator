@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  justify-content: center;
+  margin-top: 40px;
+}
+.container {
+  padding: 10px;
+  width: 200px;
+  height: 166px;
+  background-color: #1e1f26;
+}
+.log {
+  width: 180px;
+  height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  overflow: hidden;
+  background-color: #1f798f;
+  margin-bottom: 10px;
+  border: 1px solid white;
+}
+.calcnumb {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
